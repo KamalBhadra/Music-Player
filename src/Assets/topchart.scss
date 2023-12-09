@@ -1,0 +1,263 @@
+.top-chart {
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30.8rem;
+
+    .title {
+        display: flex;
+        padding-top: 1.8rem;
+        width: 18.1rem;
+        height: 7rem;
+        padding-left: 1.9rem;
+
+        p {
+            display: flex;
+            font-size: 3.2rem;
+            font-style: normal;
+            font-weight: 700;
+            padding: 0;
+            margin: 0;
+            line-height: 3.53rem;
+            color: #333;
+        }
+
+    }
+
+    .image-chart-title {
+
+        display: flex;
+        width: 26.1rem;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-left: 1.9rem;
+        padding-top: 3rem;
+
+        .title1 {
+
+            display: flex;
+            color: #333;
+            font-size: 1.8rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 1.98rem;
+        }
+
+        .title2 {
+
+            display: flex;
+            color: #828282;
+            font-size: 1.6rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 1.76rem;
+            align-items: center;
+            gap: 0.5rem;
+
+
+        }
+    }
+
+    .image-gallery {
+
+        display: flex;
+        flex-direction: row;
+        width: 29rem;
+        padding: 1.9rem 0rem 0rem 1.9rem;
+        gap: 2.1rem;
+        flex-wrap: wrap;
+
+
+        .image-card {
+
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+
+            .images {
+                display: flex;
+                object-fit: cover;
+
+                img {
+
+                    padding: 0;
+                    margin: 0;
+                    height: 10rem;
+                    width: 12rem;
+                    border-radius: 0.6rem;
+                    box-shadow: 0px 0.4rem 0.8rem 0.1rem rgba(0, 0, 0, 0.08);
+
+                }
+
+            }
+
+            .image-description-big-text {
+
+                display: flex;
+                flex-direction: column;
+                color: #333;
+                font-size: 1.4rem;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 1.54rem;
+                padding: 0.6rem 0.4rem 0.6rem 0.4rem;
+
+                p {
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+
+            .image-description-small-text {
+
+                display: flex;
+                flex-direction: column;
+                color: #333;
+                font-size: 1.2rem;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 1.32rem;
+                padding: 0rem 0.4rem 0rem 0.4rem;
+
+                p {
+                    padding: 0;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .you-may-like {
+
+        display: flex;
+        padding-left: 1.9rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.98rem;
+        font-size: 1.8rem;
+        padding-top: 3rem;
+        width: 26.1rem;
+        height: 2rem;
+
+        p {
+            padding: 0;
+            margin: 0;
+        }
+    }
+
+    .track-list {
+
+        display: flex;
+        flex-direction: row;
+        width: 26.1rem;
+        height: 4.2rem;
+        padding: 1rem 0rem 0rem 1.9rem;
+        cursor: pointer;
+
+        .track-list-image {
+
+            display: flex;
+
+            img {
+
+                display: flex;
+                height: 4.2rem;
+                width: 4.2rem;
+                border-radius: 0.6rem;
+                box-shadow: 0px 4px 8px 1px rgba(0, 0, 0, 0.08);
+
+            }
+        }
+
+        .track-list-description {
+
+            display: flex;
+            flex-direction: column;
+            padding-left: 0.8rem;
+            height: 4.2rem;
+            width: 100%;
+            gap: 0.45rem;
+
+            .track-list-description-big-text {
+
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                justify-content: space-between;
+
+                .song-name {
+
+                    display: flex;
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                    font-style: normal;
+                    color: #333;
+                    align-items: center;
+                    justify-content: center;
+                    line-height: 1.54rem;
+                    padding-top: 0.6rem;
+
+                }
+
+
+                p {
+                    padding: 0;
+                    margin: 0;
+                }
+
+                .song-time {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: var(--Gray-1, #333);
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 1.54rem;
+                }
+
+            }
+
+            .track-list-description-small-text {
+
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                justify-content: space-between;
+                height: 1.3rem;
+                background-color: rgb(255, 255, 255);
+
+
+                p {
+                    padding: 0;
+                    margin: 0;
+                }
+
+                .song-description {
+
+                    color: #4F4F4F;
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 1.32rem;
+                }
+
+                .song-year {
+
+                    color: #828282;
+                    font-size: 1.2rem;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 1.32rem;
+
+                }
+
+            }
+
+
+        }
+
+    }
+
+}

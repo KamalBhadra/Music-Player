@@ -1,0 +1,80 @@
+.navbar {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+   // width: 5.4rem;
+    flex-shrink: 0;
+
+    .green-doubled-rounded-svg {
+        display: flex;
+        padding: 2rem 1.1rem 0rem 1.1rem;
+        cursor: pointer;
+
+    }
+
+    .rounded-profile-pic {
+
+        padding: 1.4rem 1.1rem 0rem 1.1rem;
+        cursor: pointer;
+
+    }
+
+    .horizontal-line {
+
+        display: flex;
+        padding: 0rem 0.9rem 0rem 0.9rem;
+        cursor: pointer;
+        width: 3.6rem;
+        height: 0.1rem;
+        // align-items:center;
+        //justify-content:center;
+        align-self: center;
+    }
+
+    .compass-svg {
+
+        display: flex;
+        padding: 2.6rem 1.8rem 1.6rem 1.8rem;
+        cursor: pointer;
+
+    }
+
+    .headphone-icon {
+
+        display: flex;
+        padding: 0rem 0.6rem 0rem 0.6rem;
+        cursor: pointer;
+
+    }
+
+    .heart-svg {
+
+        display: flex;
+        padding: 1.8rem 1.7rem 0rem 1.7rem;
+        cursor: pointer;
+
+    }
+
+    .square-svg {
+
+        display: flex;
+        padding: 3rem 1.9rem 0rem 1.9rem;
+        cursor: pointer;
+    }
+
+    .settings-icon {
+
+        display: flex;
+        padding: 35rem 1.9rem 0rem 1.9rem;
+        cursor: pointer;
+    }
+
+    .left-arrow-icon {
+
+        display: flex;
+        padding: 2.4rem 1.8rem 0rem 1.8rem;
+        cursor: pointer;
+    }
+
+}

@@ -1,0 +1,35 @@
+@import 'navbar';
+@import 'topchart';
+@import 'musiccontrols';
+@import 'tracklist';
+
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    padding-bottom: 1rem;
+
+}
+
+//Main Section
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    font-family: Poppins;
+
+    //Musuc Content area
+
+    .music-content {
+
+        display: flex;
+        flex-direction: row;      
+
+    }
+}
